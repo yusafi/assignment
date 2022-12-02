@@ -1,0 +1,133 @@
+:root {
+	--sky: #6bc2f1;
+}
+
+header {
+	min-height: 100vh;
+	background: url('img/header.jpg') center/cover no-repeat fixed;
+}
+.navbar-brand img {	margin: -.3rem 90px 0 0 }
+.my-menu { font: bold .9em "Roboto"; color: #252525 !important }
+.my-sky-bg { background: var(--sky) }
+.my-sky-text { color: var(--sky) }
+.my-nav-bg { background: rgba(255,255,255,.8) }
+#welcome { padding: 100px 0 }
+#feature img { object-fit: cover }
+#services { padding: 30px 0; height: 100vh; }
+.myServiceRowMg{
+	margin-left: 40px;
+}
+.myServiceRowMg div{
+	margin-top: 20px;
+}
+#services i{
+	font-size: 3em;
+	color: #308ec2;
+}
+#services h5{
+	margin-bottom: 40px;
+}
+#services i{
+	display: flex;
+	justify-content: center;
+}
+#gallery{
+	height: 100vh;
+	background: #f1f1f1;
+	padding: 10px 0;
+}
+.galleryImgSize,  .galleryImgSize2, .galleryImgSize3, .galleryImgSize4, .galleryImgSize5, .galleryImgSize6{
+	height: 260px;
+	margin-top: 45px;
+}
+.galleryImgSize{
+	background: url('img/gal1.jpg') no-repeat center/cover;
+	background-size: 300px 240px;
+}
+.galleryImgSize2{
+	background: url('img/gal2.jpg') no-repeat center/cover;
+	background-size: 300px 240px;
+}
+.galleryImgSize3{
+	background: url('img/gal3.jpg') no-repeat center/cover;
+	background-size: 300px 240px;
+}
+.galleryImgSize4{
+	background: url('img/gal4.jpg') no-repeat center/cover;
+	background-size: 300px 240px;
+}
+.galleryImgSize5{
+	background: url('img/gal5.jpg') no-repeat center/cover;
+	background-size: 300px 240px;
+}
+.galleryImgSize6{
+	background: url('img/gal6.jpg') no-repeat center/cover;
+	background-size: 300px 240px;
+}
+#testimonials{
+	height: 80vh;
+	padding: 120px 0;
+	background: #6bc2f1;
+}
+#testimonials h1{
+  font-size: 10em;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.902);
+  display: flex;
+  justify-content: center;
+}
+#testimonials p{
+  font-size: 1em;
+  font-family: "Myriad Pro";
+  color: rgba(255, 255, 255, 0.851);
+  line-height: 1.875;
+  text-align: center;
+}
+#jane{
+		font-size: 0.8em !important;
+		font-family: "Myriad Pro" !important;
+}
+
+
+.fa-chevron-left, .fa-chevron-right {
+	color: #fff;
+	font-size: 1em;
+}
+#zapyataya{
+	margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 767.98px) {
+	.display-4{
+		font-size: 2.5rem;
+		line-height: 1;
+	}
+	#services{
+		display: flex;
+		margin-left: -55px;
+	}
+	#services i{
+		display: flex;
+		justify-content: center;
+	}
+	#gallery{
+		height: 100vh;
+		background: #f1f1f1;
+		display: flex;
+		margin-top: 1200px;
+	}
+	#gallery{
+		height: 330vh;
+		background: #f1f1f1;
+	}
+	#zapyataya{
+		margin-bottom: 20px;
+	}
+	#testimonials{
+		height: 150vh;
+		background: #6bc2f1;
+	}
+	
+}
